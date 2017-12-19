@@ -1,0 +1,125 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  border-top: 1px solid transparent;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  justify-content: space-between;
+  background-color: black;
+  border-bottom: 1px solid white;
+  border-top: 1px solid transparent;
+}
+.logo {
+  flex: 1;
+  content: url(../images/img-tea-cozy-logo.png);
+  height: 50px;
+  margin-left: 10px;
+}
+header nav {
+  margin: 50px;
+}
+a {
+  color: seashell;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  background-image: url(../images/img-mission-background.jpg);
+  padding-top: 70px;
+  margin-top: 3px;
+  margin-bottom: 100px;
+}
+.mission {
+  flex: 1;
+  align-content: center;
+  margin: auto;
+  background-color: black;
+  width: 1200px;
+}
+
+#tea {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  border: 1px solid red;
+}
+.teamonth {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+.thumbs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  
+}
+.teas {
+  flex: 1;
+  display: block;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+}
+.locations-container {
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 1100px;
+  margin-top: 150px;
+}
+.loc-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.locations {
+    opacity: 1.0;
+    padding: 5px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+
+
+
+.contact{
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding: 20px;
+}
